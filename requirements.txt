@@ -1,0 +1,7 @@
+streamlit==1.44.1
+streamlit-autorefresh==1.0.1
+pandas==2.2.3
+numpy==1.26.4
+yfinance==0.2.40
+requests==2.32.3
+python-dateutil==2.9.0.post0
