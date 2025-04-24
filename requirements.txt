@@ -1,6 +1,8 @@
 setuptools>=67.0.0
 wheel
 cython
+pyyaml==6.0
+aiohttp==3.8.1
 streamlit==1.44.1
 plotly==5.21.0
 streamlit-autorefresh==1.0.1
@@ -9,9 +11,7 @@ numpy==1.26.4
 requests==2.32.3
 openai==1.23.6
 pyttsx3==2.90
-pyyaml==6.0
 alpaca-trade-api==2.3.0
-aiohttp==3.9.3
 qiskit==1.0.2
 qiskit-aer==0.13.2
 yfinance==0.2.40
