@@ -1,26 +1,25 @@
-# Core UI
+# --- Core Interface ---
 streamlit==1.44.1
 plotly==5.21.0
 streamlit-autorefresh==1.0.1
 
-# Data
+# --- Data & Utils ---
 pandas==2.2.3
 numpy==1.26.4
-requests==2.32.3
+requests==2.31.0
 python-dateutil==2.9.0.post0
+yfinance==0.2.40
 
-# Quantum (GOAT Bot Cloud)
+# --- Quantum Mechanics ---
 qiskit==1.0.2
 qiskit-aer==0.13.2
 
-# Alpaca (SAFE VERSION for cloud)
+# --- Alpaca SDK (Safe Version for Cloud) ---
 alpaca-trade-api==2.3.0
 
-# AI & Voice Support
+# --- LLM / Voice AI ---
 openai==1.23.6
 pyttsx3==2.90
 
-# Optional Utilities
-yfinance==0.2.40
 
 
