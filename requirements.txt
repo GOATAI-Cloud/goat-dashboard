@@ -1,27 +1,28 @@
-# === CORE DASHBOARD + LOGIC ===
+# === Core Dashboard & Bot Packages ===
 streamlit==1.44.1
-streamlit-autorefresh==1.0.1
 plotly==5.21.0
+streamlit-autorefresh==1.0.1
 pandas==2.2.3
 numpy==1.26.4
 requests==2.32.3
-
-# === AI + LLM SUPPORT (for GOAT Oracle + Commentary) ===
 openai==1.23.6
 
-# === VOICE OUTPUT (for GOAT Voice Tab) ===
+# === Voice Output (optional but supported) ===
 pyttsx3==2.90
 
-# === ALPACA TRADING (Stable for Streamlit Cloud) ===
+# === Alpaca Trading Support (safe version for Python 3.12) ===
 alpaca-trade-api==2.3.0
+aiohttp==3.8.1
+PyYAML==5.4.1  # Avoid 6.0 for build errors
 
-# === QUANTUM LOGIC MODULES ===
+# === Quantum Modules (GOAT Cloud only) ===
 qiskit==1.0.2
 qiskit-aer==0.13.2
 
-# === OPTIONAL TOOLS / BACKTEST / SENTIMENT ===
+# === Optional Enhancements ===
 yfinance==0.2.40
 python-dateutil==2.9.0.post0
+
 
 
 
