@@ -1,25 +1,27 @@
-# --- Core Interface ---
+# === CORE DASHBOARD + LOGIC ===
 streamlit==1.44.1
-plotly==5.21.0
 streamlit-autorefresh==1.0.1
-
-# --- Data & Utils ---
+plotly==5.21.0
 pandas==2.2.3
 numpy==1.26.4
-requests==2.31.0
-python-dateutil==2.9.0.post0
-yfinance==0.2.40
+requests==2.32.3
 
-# --- Quantum Mechanics ---
+# === AI + LLM SUPPORT (for GOAT Oracle + Commentary) ===
+openai==1.23.6
+
+# === VOICE OUTPUT (for GOAT Voice Tab) ===
+pyttsx3==2.90
+
+# === ALPACA TRADING (Stable for Streamlit Cloud) ===
+alpaca-trade-api==2.3.0
+
+# === QUANTUM LOGIC MODULES ===
 qiskit==1.0.2
 qiskit-aer==0.13.2
 
-# --- Alpaca SDK (Safe Version for Cloud) ---
-alpaca-trade-api==2.3.0
-
-# --- LLM / Voice AI ---
-openai==1.23.6
-pyttsx3==2.90
+# === OPTIONAL TOOLS / BACKTEST / SENTIMENT ===
+yfinance==0.2.40
+python-dateutil==2.9.0.post0
 
 
 
