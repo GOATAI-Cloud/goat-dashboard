@@ -7,15 +7,15 @@ requests==2.32.3
 openai==1.23.6
 pyttsx3==2.90
 
-# Alpaca with PyYAML fix
+# Required for Alpaca live trading
 alpaca-trade-api==2.3.0
-pyyaml==6.0.1
+pyyaml==6.0
 
-# Quantum
+# Quantum features
 qiskit==1.0.2
 qiskit-aer==0.13.2
 
-# Optional data tools
+# Data handling
 yfinance==0.2.40
 python-dateutil==2.9.0.post0
 
