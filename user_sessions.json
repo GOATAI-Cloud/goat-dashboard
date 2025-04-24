@@ -1,0 +1,10 @@
+{
+    "default_user": {
+      "creds": {
+        "key": "AKLEJ09WRN086KZ50D7Y",
+        "secret": "6ZIK0GCtiVV323M4lb44fjNqYNN9kohsVad0ZuEH",
+        "base_url": "https://paper-api.alpaca.markets"
+      }
+    }
+  }
+  
