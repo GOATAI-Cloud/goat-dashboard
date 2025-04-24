@@ -8,12 +8,10 @@ requests==2.32.3
 
 # AI, Voice, and Data Intelligence
 openai==1.23.6
-pyttsx3==2.90
 
 # Trading Engine (for goat_bot_cloud)
 alpaca-trade-api==3.1.1
-qiskit==1.0.2
-qiskit-aer==0.13.2
+
 
 # Optional Expansions
 yfinance==0.2.40
