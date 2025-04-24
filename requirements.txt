@@ -1,7 +1,7 @@
 setuptools>=67.0.0
 wheel
 cython
-pyyaml==6.0
+pyyaml==5.4.1
 aiohttp==3.8.1
 streamlit==1.44.1
 plotly==5.21.0
