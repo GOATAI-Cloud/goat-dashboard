@@ -1,4 +1,3 @@
-# === Core Dashboard & Bot Packages ===
 streamlit==1.44.1
 plotly==5.21.0
 streamlit-autorefresh==1.0.1
@@ -6,22 +5,20 @@ pandas==2.2.3
 numpy==1.26.4
 requests==2.32.3
 openai==1.23.6
-
-# === Voice Output (optional but supported) ===
 pyttsx3==2.90
 
-# === Alpaca Trading Support (safe version for Python 3.12) ===
+# Alpaca Trading (ensure PyYAML installs from binary wheel)
 alpaca-trade-api==2.3.0
-aiohttp==3.8.1
-PyYAML==5.4.1  # Avoid 6.0 for build errors
+pyyaml==6.0 --only-binary :all:
 
-# === Quantum Modules (GOAT Cloud only) ===
+# Quantum logic
 qiskit==1.0.2
 qiskit-aer==0.13.2
 
-# === Optional Enhancements ===
+# Optional market data
 yfinance==0.2.40
 python-dateutil==2.9.0.post0
+
 
 
 
