@@ -3,7 +3,7 @@ setuptools>=67.0.0
 wheel
 pyyaml==6.0
 alpaca-trade-api==2.3.0
-streamlit
+streamlit==1.44.1
 pandas
 yfinance
 transformers
