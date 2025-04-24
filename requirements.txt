@@ -1,16 +1,8 @@
-# Core Setup Tools
+pip>=24.0
 setuptools>=67.0.0
 wheel
-pip>=24.0
-
-# Remove Cython (unneeded unless you compile C extensions, causing wheel build errors)
-# cython
-
-# Alpaca + YAML Compatibility Fix
-pyyaml>=6.0.1  # <-- Notice: using >=6.0.1 instead of exact 6.0 due to wheel build issue
+pyyaml==6.0
 alpaca-trade-api==2.3.0
-
-# Core Packages
 streamlit
 pandas
 yfinance
